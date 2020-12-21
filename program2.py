@@ -2,7 +2,7 @@
 import csv
 a = []
 print("\n The Given Training Data Set \n")
-with open('1.csv', 'r') as csvFile:
+with open('program2.csv', 'r') as csvFile:
  reader = csv.reader(csvFile)
  for row in reader:
   a.append (row)
