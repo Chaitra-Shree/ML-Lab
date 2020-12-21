@@ -7,7 +7,7 @@ This is a temporary script file.
 
 import csv
 a = []
-with open('1.csv', 'r') as csvfile:
+with open('program1.csv', 'r') as csvfile:
     for row in csv.reader(csvfile):
         a.append(row)
     print(a)
